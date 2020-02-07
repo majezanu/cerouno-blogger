@@ -3,11 +3,11 @@ import React, { Component } from 'react';
 class Button extends Component {
     constructor(props) {
         super(props);
-        this.text = props.text;
+        this.styleName = props.styleName;
     }
   render() {
     return (
-        <button>{this.text}</button>
+        <button className={this.styleName}>{this.props.children}</button>
     );
   }
 }

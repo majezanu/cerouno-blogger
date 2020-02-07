@@ -6,16 +6,12 @@ class NavBar extends Component {
         super(props);
         this.text = props.text;
         this.href = props.href;
-        this.links = [
-            {text: 'Servicios', className: 'nav-link text-primary', url: 'http://www.google.com'},
-            {text: 'Acerca de', className: 'nav-link text-danger', url: 'http://www.google.com'},
-            {text: 'Contacto', className: 'nav-link text-success', url: 'http://www.google.com'}
-        ];
+        this.links = props.links;
     }
   render() {
     return (
         <nav className="navbar navbar-expand-md navbar-dark bg-dark">
-            <div class="navbar-collapse collapse w-100 order-3 dual-collapse2" id="navbarNav">
+            <div className="navbar-collapse collapse w-100 order-3 dual-collapse2" id="navbarNav">
                 <ul className="navbar-nav ml-auto">
                     {this.links.map((link, index) => {
                         return <li key={index} className="nav-item">
