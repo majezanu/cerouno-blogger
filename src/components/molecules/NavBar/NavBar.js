@@ -6,11 +6,7 @@ class NavBar extends Component {
         super(props);
         this.text = props.text;
         this.href = props.href;
-        this.links = [
-            {text: 'Servicios', className: 'nav-link text-primary', url: 'http://www.google.com'},
-            {text: 'Acerca de', className: 'nav-link text-danger', url: 'http://www.google.com'},
-            {text: 'Contacto', className: 'nav-link text-success', url: 'http://www.google.com'}
-        ];
+        this.links = props.links;
     }
   render() {
     return (
