@@ -1,3 +1,19 @@
+## Blogger
+Blogger is a web page that contains blogs and post of many people,
+these post/blogs are presented on different forms
+
+## Design
+Blogger is builded with atomic design in mind
+
+## Enviroments
+There are two enviroments available, and this envs are deployed on Netlify,
+you can see the changes on the next urls:
+Develop:
+https://fervent-lumiere-055601.netlify.com/
+
+Production:
+https://jovial-hoover-0f8d79.netlify.com/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
