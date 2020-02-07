@@ -15,7 +15,7 @@ class Home extends Component {
         return (
             <div>
                 <NavBar links={this.links}></NavBar>
-                <BlogCard></BlogCard>
+                <BlogCard style={`listed`}></BlogCard>
             </div>
         );
     }
