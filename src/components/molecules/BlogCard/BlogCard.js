@@ -24,10 +24,10 @@ class BlogCard extends Component {
             return(
                 <div className="card container blog-card-banner">
                     <div className="row">
-                    <BlogImage styleName={`col-6 image-banner`}  image={this.blog.image} />
+                    <BlogImage styleName={`col-7 image-banner`}  image={this.blog.image} />
                     <div className="col text-left">
                         <BlogCategory styleName={`text-primary align-self-start`}>{this.blog.category}</BlogCategory>
-                        <BlogTitle styleName={`card-title`}>{this.blog.title}</BlogTitle>
+                        <BlogTitle>{this.blog.title}</BlogTitle>
                         <BlogDate date={this.blog.date} locale={`es-MX`}></BlogDate>
                         <br/>
                         <BlogButton>Leer más</BlogButton>
@@ -42,9 +42,9 @@ class BlogCard extends Component {
                 <div className="container card blog-card-listed">
                     <div className="row">
                             <div className="col text-left">
-                                <BlogImage styleName={`col image-listed`} image={this.blog.image}/>
+                                <BlogImage image={this.blog.image}/>
                                 <BlogCategory styleName={`text-primary align-self-start`}>{this.blog.category}</BlogCategory>
-                                <BlogTitle styleName={`blog-card-listed-title`}>{this.blog.title}</BlogTitle>
+                                <BlogTitle>{this.blog.title}</BlogTitle>
                                 <BlogDate date={this.blog.date} locale={`es-MX`}></BlogDate>
                             </div>
                         </div>
