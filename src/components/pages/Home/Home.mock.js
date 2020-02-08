@@ -72,34 +72,34 @@ const homeMock = {
         {
             blogs: [
                 {
-                    title: '6 video juegos de terror que no dejarás de jugar',
+                    title: 'Segunda temporada de Demon Slayer estrenará más pronto de lo esperado',
                     date: new Date(),
                     image: {
-                        src: 'https://cdn02.nintendo-europe.com/media/images/06_screenshots/games_5/nintendo_switch_download_software_2/nswitchds_outlastbundleofterror/NSwitchDS_OutlastBundleOfTerror_06.jpg',
-                        alt: 'Outlast',
+                        src: 'https://laverdadnoticias.com/__export/1570233352861/sites/laverdad/img/2019/10/04/demonslayer_anime.jpg_793492074.jpg',
+                        alt: 'DemonSlayer',
                     },
-                    category: 'Video juegos'
+                    category: 'Anime'
                 },
                 {
-                    title: 'Bornout 3: El mejor video juego de carreras',
+                    title: 'Puedes leer la continuación de Death Note gratis online',
                     date: new Date(),
                     image: {
-                        src: 'https://wallpaperstock.net/wallpapers/thumbs1/18474.jpg',
-                        alt: 'burnout3',
+                        src: 'https://cdn.cinemascomics.com/wp-content/uploads/2020/02/continuacion-death-note-gratis-online.jpg',
+                        alt: 'DeathNote',
                     },
-                    category: 'Video juegos'
+                    category: 'Anime'
                 },
                 {
-                    title: 'Historia de los video juegos',
+                    title: '¿Qué sabemos de los titanes hasta ahora?',
                     date: new Date(),
                     image: {
-                        src: 'https://www.fib.upc.edu/retro-informatica/historia/videojocs/mainColumnParagraphs/0/image/oxo.jpg',
-                        alt: 'history',
+                        src: 'https://spoilertime.com/wp-content/uploads/2019/05/attack-on-titan-1-2-780x451.jpg',
+                        alt: 'AoT',
                     },
-                    category: 'Video juegos'
+                    category: 'Anime'
                 },
             ],
-            category: 'Video juegos'
+            category: 'Anime'
         }
     ]
 }
