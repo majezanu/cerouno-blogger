@@ -2,10 +2,24 @@
     width: 18rem;
 }
 
+.blog-card-listed-title {
+    font-size: 1rem;
+}
+
 .blog-card-banner {
    height: 25%;
 }
 
+
 .image-banner {
-    max-height: 250px;
+    max-height: 275px;
 }
+
+.image-listed {
+    max-height: 120px;
+}
+
+.card {
+    border: none;
+}
+
