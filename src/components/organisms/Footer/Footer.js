@@ -7,7 +7,7 @@ class Footer extends Component {
             <SubscribeInput></SubscribeInput>
             <div className="container-fluid text-center text-md-left text-white">
                 <div className="footer-copyright text-center py-3">
-                    © 2020 Copyright
+                    © 2020 Copyright - Manuel Zavala
                 </div>
             </div>
         </footer>
